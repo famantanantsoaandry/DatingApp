@@ -1,0 +1,77 @@
+https://medium.com/@mszwu/net-core-developer-roadmap-270bba855f82
+Crtl + P
+
+Ctrl + Shift + P
+
+dotnet ndew webapi -n 
+
+
+
+Back 
+
+dotnet watch run
+
+- C# from omnisharp
+- C# extensions
+- Nuget Package Manager
+
+
+Ef migration in .net core 3
+
+dotnet tool install --global dotnet-ef
+
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+
+Front : 
+
+npm install -g @angular/cli
+ng new DatingApp-SPA
+ng server
+
+
+- angular snippets
+- angular files
+- angular language service
+- auto rename tag
+- bracket pair colorizer
+- debugger for chrome
+- material ui theme
+- prettier - Code formatter
+- TsLint
+- angular 2 swicther
+
+Short Cut ( component , css , html ..)
+
+ALT + O --> html
+ALT + U --> Component
+ALT + I --> css
+
+git remote add origin https://github.com/famantanantsoaandry/DatingApp.git
+
+Use secret durintg dev and prod :
+
+Add Guild on csproj 
+
+dotnet user-secrets set "AppSettings:Token" "super secret key"
+
+Environment variable on production
+
+
+Prettier : ALT + SHIFT + F and also in setting JSX single quote
+
+Alertifyjs
+Angular JWT
+NGX Bootstrap
+Bootswatch
+
+How to generate guard in  angluder : go to the guard folder and : ng g guard auth --skipTests
+
+ng generate module app-routing --flat --module=app
+
+
+Migrations options in entity framework : 
+dotnet ef migratons remove
+dotnet ef database drop 
+dotnet ef database update AdddedUserEntity ( previous migration ) ---> migration limitaion of SQL lite ( the undernlined database ) 
+ 
