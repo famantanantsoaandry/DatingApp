@@ -34,6 +34,6 @@ namespace DatingApp.API.Dtos
 
          public string Photourl {get;set;}
 
-        public ICollection<Photo> Photos { get; set; }
+        public ICollection<PhotoForDetailsDto> Photos { get; set; }
     }
 }
